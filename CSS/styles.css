@@ -43,7 +43,12 @@ width: 200px;
 
 }
 
-.container {
+
+.box-set{
+    background: #ffffff;
+}
+
+ .container {
     background: #4aaaa5;
     height: 35px;
     width: 240px;
@@ -52,16 +57,17 @@ width: 200px;
 
 }
 
-.nav{
+nav{
     
-    position: fixed;
+    position: absolute;
+    top: 5%;
     width: 100%;
     line-height: 60px;
   
 
 }
 
-nav ul{
+ nav ul{
     float: right;
     margin:0;
     padding:0;
@@ -72,12 +78,7 @@ nav ul li{
     display: inline-block;
     padding: 16px;
 }
-<!--not working container-->
 
-.section {
-   padding: 20px;
-   margin: 20px;
-}
 
 p{
     color: #777777;
