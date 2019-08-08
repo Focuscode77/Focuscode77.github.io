@@ -33,7 +33,8 @@ h2{
     background: lavender;
     width: 960px;
     height: 100%;
-    ;
+    position: absolute;
+    right:25%;
 }
 
 .title{
@@ -181,4 +182,13 @@ footer {
     width: 275px;
     height: 35px;
 
+}
+
+.info{
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    left:15%;
+    top:25%;
+    
 }
