@@ -29,7 +29,16 @@ h2{
    
 }
 
+.section{
+    background: lavender;
+    width: 960px;
+    height: 100%;
+    ;
+}
 
+.title{
+    border-bottom: 1px solid gray;
+}
 
 
 }
