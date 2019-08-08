@@ -109,7 +109,7 @@ footer {
 .heading{
     color: #ffffff;
     position: absolute;
-    left: 1%;
+    left: 0%;
     top: 18%;
     text-align: center;
     background-color: #4aaaa5;
@@ -134,7 +134,7 @@ footer {
 .heading3{
     color: #ffffff;
     position: absolute;
-    left: 1%;
+    left: 0%;
     top: 50%;
     text-align: center;
     background-color: #4aaaa5;
@@ -158,7 +158,7 @@ footer {
 .heading5{
     color: #ffffff;
     position: absolute;
-    left: 1%;
+    left: 0%;
     top: 85%;
     text-align: center;
     background-color: #4aaaa5;
