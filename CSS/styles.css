@@ -30,7 +30,7 @@ h2{
 }
 
 .section{
-    background: lavender;
+    background: #ffffff;
     width: 960px;
     height: 100%;
     position: absolute;
@@ -94,29 +94,18 @@ p{
     color: #777777;
     display:inline;
 }
-.wrapper{
-    position: relative;
-}
+
 
 footer {
     background: #666666;
-    height: 40px;
+    text-align: center;
     width:100%;
-    position: absolute;
-    left:0px;
-    bottom:0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     
 }
-.last{
-    position: absolute;
-    top:50%;
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 13px 0px 0px 0px;
-    color: #ffffff;
-    width: 100%;
-}
+
 
 .heading{
     color: #ffffff;
@@ -188,7 +177,8 @@ footer {
     width: 150px;
     height: 100%;
     position: absolute;
-    left:15%;
+    left:10%;
     top:25%;
     
 }
+
