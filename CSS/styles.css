@@ -113,24 +113,26 @@ footer {
     color: #ffffff;
     position: absolute;
     left: 0%;
-    top: 18%;
+    top: 22%;
     text-align: center;
     background-color: #4aaaa5;
-    width: 395px;
-    height: 10%;
-
+    width: 200px;
+    height: 7%;   
 }
+
+
+
 
 
 .heading2{
     color: #ffffff;
     position: absolute;
-    left: 51%;
-    top: 18% ;
+    left: 40%;
+    top: 22% ;
     text-align: center;
     background-color: #4aaaa5;
-    width: 395px;
-    height: 10%;
+    width: 254px;
+    height: 7%;
     
 }
 
@@ -138,23 +140,23 @@ footer {
     color: #ffffff;
     position: absolute;
     left: 0%;
-    top: 50%;
+    top: 56%;
     text-align: center;
     background-color: #4aaaa5;
-    width: 395px;
-    height: 10%;
+    width: 254px;
+    height: 7%;
     
 }
 
 .heading4{
     color: #ffffff;
     position: absolute;
-    left: 51%;
-    bottom: 33%;
+    left: 50%;
+    bottom: 31%;
     text-align: center;
     background-color: #4aaaa5;
-    width: 395px;
-    height: 10%;
+    width: 250px;
+    height: 7%;
 
 }
 
@@ -162,11 +164,11 @@ footer {
     color: #ffffff;
     position: absolute;
     left: 0%;
-    top: 85%;
+    top: 89%;
     text-align: center;
     background-color: #4aaaa5;
-    width: 395px;
-    height: 10%;
+    width: 250px;
+    height: 7%;
 
 }
 
@@ -181,7 +183,10 @@ footer {
 
 .banner{
     position: absolute;
-    left: 25%;
+    left: 20%;
+    
+    
+    
 }
 
 .color{
