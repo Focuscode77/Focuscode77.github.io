@@ -5,79 +5,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="CSS/reset.css">
-    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-    <title>Focus Code</title>
-</head>
-<header id="masthead">
-    <div class="container">
-        <a href="index.html" id="logo"> Joshua Coleman</a>
-        <nav>
-            <a href="index.html" > About me</a>
-            <a href="portfolio.html"> Portfolio</a>
-            <a href="contact.html" > Contact</a>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <head>
+
+        <title>Bootstrap Portfolio</title>
+    </head>
+
+<body>
+    <!--Background img-->
+
+    
+
+    <!--Header and Navbar-->
+<header>
+    <nav>
+            <div class="row">
+                <img src="./assets/Images/port logo.png" alt="port logo" class="logo">
+                <ul class="main-nav">
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href='portfolio.html'>Portfolio</a></li>
+                    <li><a href='contact.html'>Contact</a></li>
+    
+    
+                </ul>
+            </div>
         </nav>
-    </div>
 </header>
-<div id="main-container" class="container">
-    <section class="main-container">
-        <h1>Contact</h1>
-        <form id="contact-form">
-            <ul>
-                <li>
-                    <label for="name"> Name</label>
-                    <input type="text" name="name" id="name" placeholder="John Smith" required="required">
-                </li>
-                <li>
-                    <label for="email"> Email </label>
-                    <input type="text" name="name" id="name" placeholder="John Smith" required="required">
-                </li>
-                <li>
-                    <label for="message"></label>
-                    <textarea id="message" name="message" required="required"></textarea>
-                </li>
+    
 
+            <!--Contact form-->
+            <div class="container">
+                <div style="text-align:center">
+                    <h2>Contact Us</h2>
+                    <p>Look forward to hearing from you:</p>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="#"
+                            style="width:100%">
+                    </div>
+                    <div class="column">
+                        <form action="/action_page.php">
+                            <label for="fname"><p>First Name</p></label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="lname"><p>Last Name</p></label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <label for="country"><p>Country</p></label>
+                            <select id="country" name="country">
+                                <option value="australia"><p>Australia</p></option>
+                                <option value="canada"><p>Canada</p></option>
+                                <option value="usa">USA</option>
+                            </select>
+                            <label for="subject"><p>Subject</p></label>
+                            <textarea id="subject" name="subject" placeholder="Write something.."
+                                style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
 
-
-            </ul>
-
-
-            <input type="submit" name="submit">
-
-        </form>
-
-
-    </section>
-</div>
-<footer>
-    <div class="contianer">
-        &copy; Copyright 2019 Joshua Coleman
+            <!-- Background img-->
+        </div>
+        <div id="bg-img3"> </div>
     </div>
-</footer>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+
+    <!--Sticky footer in bootstrap-->
+
+  
+    
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 
 </body>
-
-</html>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
